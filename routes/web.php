@@ -1,4 +1,5 @@
 <?php
-Route::get('/',function(){
-return 'GISSAL PROXIMAMENTE';
+Route::get('/', function()
+{
+    return view('ComingSoon');
 });
