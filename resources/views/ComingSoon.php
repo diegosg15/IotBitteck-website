@@ -7,12 +7,12 @@ body, html {
 }
 
 .bgimg {
-  background-image: url('{{asset('/forestbridge.jpg')' }});
+  background-image: url('/forestbridge.jpg');
   height: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
-  color: white;
+  color: black;
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
 }
