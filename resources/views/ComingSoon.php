@@ -7,12 +7,12 @@ body, html {
 }
 
 .bgimg {
-  background-color: blue;
+  background-color: black;
   height: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
-  color: black;
+  color: white;
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
 }
@@ -60,7 +60,7 @@ hr {
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+var countDownDate = new Date("April 25, 2019 15:37:25").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
