@@ -7,7 +7,7 @@ body, html {
 }
 
 .bgimg {
-  background-image: url('views/forestbridge.jpg');
+  background-image: url('{{ asset('/forestbridge.jpg') }});
   height: 100%;
   background-position: center;
   background-size: cover;
